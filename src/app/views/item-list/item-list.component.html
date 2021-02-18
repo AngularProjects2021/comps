@@ -1,0 +1,13 @@
+<div class="items card">
+    <div class="item" *ngFor = "let item of items">
+        <div class="image">
+            <img [src] = "item.image" alt="" width="200" height="100" class=" img-fluid img-thumbnail">
+        </div>
+    <div class="content">
+        <div class="header"><h4 class="title">{{item.title}}</h4></div>
+        <div class="description">
+            {{item.description}}
+        </div>
+    </div>
+    </div>
+</div>

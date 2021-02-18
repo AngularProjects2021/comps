@@ -1,0 +1,19 @@
+.
+.
+.
+.
+Collections
+    -collection-home
+    -tabel
+    -Biograpgy
+    -Companies
+    -Partners
+Views
+   -Views-home
+   -statistics
+   -ItemList
+Modal(mods)
+  -Mods-home
+  -modal
+  -
+   

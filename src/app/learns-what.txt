@@ -1,0 +1,7 @@
+mods module
+  -ng-bootstrap modal
+  -Madal
+    -lean sharing data from  child to parent using @output
+    -'ng-content' to send html data to child make reuasble
+        ~parent-> <div  selecTag> ;child -> <ng-content select="selectMode">
+    -'ng-container' replace div 

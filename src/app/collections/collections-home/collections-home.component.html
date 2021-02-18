@@ -1,0 +1,24 @@
+
+<app-divider>Table Component</app-divider>
+<app-table [data] = "data" [headers] = "headers"></app-table>
+
+<app-divider>Tab Component</app-divider>
+<app-tabs>
+        <li class="nav-item" role="presentation">
+                <!-- exact path its important -->
+                <a class="nav-link " id="biography-tab" data-bs-toggle="tab"
+                routerLink = "./"  
+                routerLinkActive = "active" 
+                [routerLinkActiveOptions] = "{exact:true}"
+                role="tab" aria-controls="biography" aria-selected="true">Biography</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="companies-tab" data-bs-toggle="tab" routerLink = "companies"  routerLinkActive = "active" role="tab" aria-controls="companies" aria-selected="false">Companies</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="partners-tab" data-bs-toggle="tab" routerLink = "partners" routerLinkActive = "active" role="tab" aria-controls="partners" aria-selected="false">Partners</a>
+            </li>
+</app-tabs>
+  
+
+

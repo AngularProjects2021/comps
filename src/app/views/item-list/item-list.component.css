@@ -1,0 +1,11 @@
+.items .item {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.items .item .content {
+    padding: 1rem;
+}
+.items .item .content .title {
+    font-size: 2rem;
+}

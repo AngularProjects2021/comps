@@ -1,0 +1,7 @@
+::ng-deep .my-class .modal-dialog { 
+    max-width: 80%;
+    width: 80%;
+}
+::ng-deep .modal-backdrop.show {
+    opacity: 0.75 !important;
+}

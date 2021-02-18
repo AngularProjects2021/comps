@@ -1,0 +1,10 @@
+.red {
+    color: red;
+    font-weight: 400
+}
+.green {
+    color: green;
+}
+.active {
+    font-weight: bold;
+}

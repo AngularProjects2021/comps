@@ -1,0 +1,16 @@
+<div class="segment">
+        <div class="segment-header">
+                <!-- get parent component content using ng-content -->
+                <!-- select content by header tag that given in parent component -->
+                <!-- ng-content can select the content by tag name,attribute,class etc.. -->
+                <ng-content select="header"></ng-content>
+        </div>
+        <div class="segment-body">
+              
+                <div class="file btn  btn-info">
+                        <img src="https://i.imgur.com/lZ5SgDE.png" alt="">
+                        <ng-content></ng-content>
+                </div>
+        </div>
+       
+</div>

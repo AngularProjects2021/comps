@@ -1,0 +1,19 @@
+.statistics {
+    display: flex;
+    flex-direction: row;
+
+}
+.statistics .statistic {
+    margin: 0 2rem;
+}
+.statistics .statistic .value {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.statistics .statistic .label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.asterisk {
+    color:green;
+}

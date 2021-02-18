@@ -1,0 +1,17 @@
+<ng-template #content let-modal>
+    <div class="modal-header">
+     <ng-content select = "[modalTitler]"></ng-content>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <ng-content select="[modalBody]"></ng-content>   
+    <div class="modal-footer">
+      <button type="button" class="btn btn-dark" (click)="modal.close('Save click')">Save</button>
+    </div>
+  </ng-template>
+  
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">Open Model</button>
+
+
+  
